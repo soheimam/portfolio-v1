@@ -1,0 +1,39 @@
+@font-face {
+	font-family:'Inria Sans';
+	src:	url('../fonts/InriaSans-Bold.woff2') format('woff2'),
+			url('../fonts/InriaSans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+html,body{
+    padding:0;
+    margin:0;
+    background-color: black;
+}
+
+h1{
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+    color: white;
+    text-orientation: sideways;
+    text-align: center;
+    z-index: 6;
+    position: fixed;
+}
+
+
+.left{
+    writing-mode: vertical-rl;
+    margin-left: -40px;
+    margin-top: 50px;
+    left: 0;
+}
+.right{
+    margin-right: -40px;
+    margin-top: 150px;
+    right: 0;
+    transform:rotateY(180deg);
+}
