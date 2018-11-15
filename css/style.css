@@ -32,8 +32,8 @@ h1{
     left: 0;
 }
 .right{
-    margin-right: -40px;
+    margin-right: -25px;
     margin-top: 150px;
     right: 0;
-    transform:rotateY(180deg);
+    writing-mode: vertical-rl;
 }
