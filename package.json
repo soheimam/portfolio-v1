@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "aws s3 sync . s3://soheima12 --exclude *git/* --acl public-read"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soheimam/portfolio-v1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soheimam/portfolio-v1/issues"
+  },
+  "homepage": "https://github.com/soheimam/portfolio-v1#readme"
+}
