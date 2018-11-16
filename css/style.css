@@ -14,7 +14,6 @@ h1{
     color: #dbdbdb;
     letter-spacing: 3px;
     text-orientation: sideways;
-    text-align: center;
     z-index: 6;
     position: fixed;
     text-transform: uppercase;
@@ -29,7 +28,30 @@ h2{
     z-index: 6;
     position: fixed;
 }
+h3{
+    font-family: 'Inconsolata', monospace;
+    color: #dbdbdb;
+    font-size: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.about{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 110px;
+    color: #dbdbdb;
+    letter-spacing: 3px;
+    text-orientation: sideways;
+    z-index: 6;
+    text-transform: uppercase;
+    position: unset;
+}
 
+p, li{
+    font-family: 'Inconsolata', monospace;
+    font-size:32px;
+    color:#9400ff;
+}
 a{
     color: #dbdbdb;
     text-decoration: none;
@@ -44,6 +66,7 @@ a:hover{
     margin-left: -18px;
     margin-top: 100px;
     left: 0;
+    
 }
 .right{
     margin-right: -22px;
@@ -51,6 +74,7 @@ a:hover{
     right: 0;
     writing-mode: vertical-rl;
     transform: rotateY(360deg);
+  
 }
 
 /* GRID  */
@@ -85,7 +109,15 @@ a:hover{
     align-items: center;
   }
 
+/* center */
 
+.center{
+    display:flex;
+    flex-direction: column;
+    margin:60px;
+    padding: 50px;
+    max-width: 660px;
+}
 
   
   .item h2 {
@@ -99,11 +131,23 @@ a:hover{
   and (min-device-width : 375px) 
   and (max-device-width : 667px)
   { 
+    h1{
+        font-size: 50px;
+        z-index: 6;
+        position:fixed;
+    }
     .overlay {
         background-color: transparent;
         opacity: 1;
    
       }
-    
+      .left{
+        margin-left: 10px;
+      }
+      .right{
+        margin-right: 20px;
+        /* margin-top: 50px; */
+        right: 0;
+    }
   
 }
