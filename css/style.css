@@ -137,6 +137,9 @@ a:hover{
         z-index: 6;
         position:fixed;
     }
+    h2{
+        font-size: 20px;  
+    }
     a{
         font-size: 50px;
     }
