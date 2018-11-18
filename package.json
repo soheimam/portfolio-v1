@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "aws s3 sync . s3://soheima12 --exclude *git/* --acl public-read"
+    "deploy": "aws s3 sync . s3://soheima.me --exclude *git/* --acl public-read"
   },
   "repository": {
     "type": "git",
