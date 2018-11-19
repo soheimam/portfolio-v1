@@ -52,6 +52,11 @@ p, li{
     font-size:32px;
     color:#9400ff;
 }
+p a{
+    font-family: 'Inconsolata', monospace;
+    font-size:32px;
+    color:#9400ff;   
+}
 a{
     color: #dbdbdb;
     text-decoration: none;
