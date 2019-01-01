@@ -4,7 +4,6 @@ html,body{
     padding:0;
     margin:0;
     background-color: black;
-    
 }
 
 h1{
@@ -55,7 +54,7 @@ p, li{
 p a{
     font-family: 'Inconsolata', monospace;
     font-size:32px;
-    color:#9400ff;   
+    color:#dbdbdb;   
 }
 a{
     color: #dbdbdb;
@@ -85,8 +84,8 @@ a:hover{
 /* GRID  */
 
 .grid{
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     align-items: end;
     justify-content: center;
 }
@@ -133,6 +132,16 @@ a:hover{
     line-height: 1.2;
     color: #fff;
     text-transform: lowercase;
+  }
+
+  footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  footer img{
+    margin-bottom: 20px;
   }
 
   @media only screen 
