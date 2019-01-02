@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Roboto');
+
+
+@font-face {font-family: "Trump Gothic West W01 Bold";
+    src: url("fonts/41b76b9136355dafbe618d35a4f225b6.eot"); /* IE9*/
+    src: url("fonts/1b76b9136355dafbe618d35a4f225b6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/41b76b9136355dafbe618d35a4f225b6.woff2") format("woff2"), /* chrome、firefox */
+    url("fonts/41b76b9136355dafbe618d35a4f225b6.woff") format("woff"), /* chrome、firefox */
+    url("fonts/41b76b9136355dafbe618d35a4f225b6.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("fonts/41b76b9136355dafbe618d35a4f225b6.svg#Trump Gothic West W01 Bold") format("svg"); /* iOS 4.1- */
+  }
 
 html,body{
     padding:0;
@@ -7,7 +17,7 @@ html,body{
 }
 
 h1{
-    font-family: 'Inconsolata', monospace;
+    font-family: "Trump Gothic West W01 Bold", monospace;
     font-weight: 700;
     font-size: 110px;
     color: #dbdbdb;
@@ -18,7 +28,7 @@ h1{
     text-transform: uppercase;
 }
 h2{
-    font-family: 'Inconsolata', monospace;
+    font-family: "Trump Gothic West W01 Bold", monospace;
     font-weight: 700;
     font-size: 60px;
     color: #dbdbdb;
@@ -28,14 +38,14 @@ h2{
     position: fixed;
 }
 h3{
-    font-family: 'Inconsolata', monospace;
+    font-family:"Trump Gothic West W01 Bold", monospace;
     color: #dbdbdb;
     font-size: 40px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
 .about{
-    font-family: 'Inconsolata', monospace;
+    font-family: "Trump Gothic West W01 Bold", monospace;
     font-weight: 700;
     font-size: 110px;
     color: #dbdbdb;
@@ -47,12 +57,12 @@ h3{
 }
 
 p, li{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
     font-size:32px;
     color:#9400ff;
 }
 p a{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
     font-size:32px;
     color:#dbdbdb;   
 }
